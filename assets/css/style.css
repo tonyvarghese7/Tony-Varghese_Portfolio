@@ -397,6 +397,24 @@ button {
   justify-content: center;
 }
 
+.about_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.about_data {
+  text-align: center;
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
 /* SKILLS  */
 .skills_container {
   row-gap: 0;
